@@ -1,0 +1,243 @@
+.for {
+  width: 562px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.for__format {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 40px;
+  font-family: "Georgia", "Arial", sans-serif;
+  font-size: 27px;
+  line-height: 38px;
+  font-style: italic;
+  text-align: center;
+
+  &--position {
+    display: block;
+  }
+}
+
+.for__question {
+  margin: 0 95px;
+  margin-bottom: 10px;
+  padding: 4px 32px;
+  padding-bottom: 9px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 36px;
+  color: #ffffff;
+  background-color: #ff621f;
+}
+
+.for__answer {
+  width: 562px;
+  margin: 0;
+  margin-bottom: 33px;
+  padding: 0;
+  padding-bottom: 13px;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  border-bottom: 2px dashed #2b2e35;
+
+  &--position {
+    display: block;
+  }
+}
+
+.for__title {
+  margin: 0;
+  padding: 0;
+}
+
+.for__title-first {
+  padding-bottom: 26px;
+  display: inline-block;
+  line-height: 29px;
+  text-align: center;
+}
+
+.for__item {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 28px;
+  line-height: 29px;
+}
+
+.for__collage {
+  padding-bottom: 435px;
+  position: relative;
+
+  &::before {
+    content: "";
+    top: 236px;
+    left: -39px;
+    width: 640px;
+    height: 374px;
+    position: absolute;
+    background-image: url("../img/collage.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+}
+
+.for__title-second {
+  margin-bottom: 67px;
+  display: inline-block;
+  line-height: 30px;
+}
+
+.for__button {
+  width: 562px;
+  margin: 0;
+  margin-bottom: 114px;
+  padding: 10px;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ff621f;
+  border-bottom: 5px solid #ff332a;
+}
+
+.social__link--vk {
+  position: relative;
+
+  &::before {
+    content: "";
+    top: -91px;
+    left: 175px;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    background-image: url("../img/vk.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+}
+
+.social__link--fb {
+  position: relative;
+
+  &::before {
+    content: "";
+    top: -91px;
+    left: 221px;
+    width: 41px;
+    height: 42px;
+    position: absolute;
+    background-image: url("../img/fb.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+}
+
+.social__link--tw {
+  position: relative;
+
+  &::before {
+    content: "";
+    top: -91px;
+    left: 267px;
+    width: 41px;
+    height: 42px;
+    position: absolute;
+    background-image: url("../img/tw.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .for {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+
+  .for__format {
+    padding: 0 190px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    font-size: 24px;
+    line-height: 38px;
+
+    &--position {
+      display: inline;
+    }
+  }
+
+  .for__question {
+    margin: 0 300px;
+    margin-bottom: 22px;
+    padding: 6px 44px;
+    padding-bottom: 10px;
+  }
+
+  .for__answer {
+    width: 1000px;
+    margin-bottom: 55px;
+    padding: 0 40px;
+    padding-bottom: 36px;
+    box-sizing: border-box;
+    font-size: 36px;
+    line-height: 40px;
+
+    &--position {
+      display: inline;
+    }
+  }
+
+  .for__title-first {
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  .for__item {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    line-height: 29px;
+  }
+
+  .for__item-size {
+    font-size: 27px;
+  }
+
+  .for__collage {
+    padding-bottom: 705px;
+
+    &::before {
+      content: "";
+      top: 170px;
+      left: 0;
+      width: 1000px;
+      height: 606px;
+      background-image: url("../img/collage-desktop.jpg");
+    }
+  }
+
+  .for__item-size-new {
+    font-size: 36px;
+    padding-bottom: 66px;
+  }
+
+  .for__title-second {
+    margin-bottom: 88px;
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  .for__button {
+    width: 1000px;
+    padding: 16px 0;
+    padding-bottom: 28px;
+    font-size: 48px;
+    border-bottom: 8px solid #ff332a;
+  }
+}

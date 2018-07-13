@@ -1,0 +1,9 @@
+@media (min-width: $desktop-width) {
+  .wrapper-image {
+    content: "";
+    top: 800px;
+    background-image: url("../img/background-image.jpg");
+    background-position: center 91%;
+    background-repeat: no-repeat;
+  }
+}

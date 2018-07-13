@@ -1,0 +1,13 @@
+.index-page-main {
+  width: 640px;
+  margin: 0 auto;
+  padding: 0 39px;
+  box-sizing: border-box;
+}
+
+@media (min-width: $desktop-width) {
+  .index-page-main {
+    width: 1000px;
+    padding: 0;
+  }
+}
