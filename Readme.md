@@ -1,6 +1,6 @@
-# Тестовое задание «Goldcoach» от компании SmartDevelopers [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# Лендинг для компании «Goldcoach». Бесплатный вебинар Ивана Замбицкого [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Программист: [Dmitriy Kravchuk](https://www.linkedin.com/in/mytrofann/).
+* Front-End Developer: [Dmitriy Kravchuk](https://www.linkedin.com/in/mytrofann/).
 
 ---
 
