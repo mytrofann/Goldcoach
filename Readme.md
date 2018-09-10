@@ -1,6 +1,6 @@
 # Лендинг для компании «Goldcoach». Бесплатный вебинар Ивана Замбицкого [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Front-End Developer: [Dmitriy Kravchuk](https://www.linkedin.com/in/mytrofann/).
+* HTML-верстальщик: [Dmitriy Kravchuk](https://www.linkedin.com/in/mytrofann/).
 
 ---
 
