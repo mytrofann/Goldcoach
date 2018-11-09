@@ -3,6 +3,7 @@
 
 * Сайт: [Goldcoach](https://goldcoach.ru/10steps/).
 
+---
 
 * HTML-верстальщик: [Dmitriy Kravchuk](https://www.linkedin.com/in/mytrofann/).
 
