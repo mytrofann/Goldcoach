@@ -1,11 +1,11 @@
 # Лендинг для компании «Goldcoach». Бесплатный вебинар Ивана Замбицкого [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 
-* Сайт: [Goldcoach](https://goldcoach.ru/10steps/).
+* Сайт: [Goldcoach](https://goldcoach.ru/10steps/)
 
 ---
 
-* HTML-верстальщик: [Dmitriy Kravchuk](https://www.linkedin.com/in/mytrofann/).
+* HTML-верстальщик: [Dmitriy Kravchuk](https://www.linkedin.com/in/mytrofann/)
 
 ---
 
