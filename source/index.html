@@ -15,6 +15,11 @@
 </head>
 
 <body>
+  <svg class="sprite">
+    <symbol id="close-cross" viewBox="0 0 21 21">
+      <path d="M13.328 10.5l7.371-7.371a1.003 1.003 0 0 0 0-1.414L19.285.3a1.003 1.003 0 0 0-1.414 0L10.5 7.672 3.129.301a1.003 1.003 0 0 0-1.414 0L.301 1.715a1.003 1.003 0 0 0 0 1.414L7.672 10.5.301 17.871a1.003 1.003 0 0 0 0 1.414l1.415 1.414a1.003 1.003 0 0 0 1.414 0l7.371-7.371 7.371 7.371a1.003 1.003 0 0 0 1.414 0l1.414-1.414a1.003 1.003 0 0 0 0-1.414L13.328 10.5z" />
+    </symbol>
+  </svg>
   <div class="wrapper-image">
   <header class="page-header">
     <a class="page-header__logo">
@@ -30,7 +35,7 @@
         <span class="intro__title--position">10 шагов к созданию «саморазвивающейся компании»</span> (включая свободу, как управлять 3 компаниями
         <span class="intro__title--position-second">и пройти Ironman)</span>
       </h1>
-      <a class="intro__button button" href="#">Забронировать место! >></a>
+      <button class="intro__button button">Забронировать место! >></button>
     </section>
 
     <div class="author-offer-wrapper">
@@ -138,7 +143,7 @@
         км плавания, 90 км на велосипеде и 21,1 км – бег).</p>
       <p class="for__item for__item-size-new">И я знаю, что это возможно и для вас…</p>
       <b class="for__title for__title-second">Приходите на мой вебинар и раскрою вам свою технология в деталях.</b>
-      <a class="for__button button" href="#">Да! Забронировать место сейчас!>></a>
+      <button class="for__button button">Да! Забронировать место сейчас!>></button>
     </section>
   </main>
 
@@ -164,6 +169,34 @@
     </div>
   </footer>
   </div>
+
+  <section class="modal modal-login">
+    <h2 class="modal__title">Забронировать место</h2>
+    <form class="modal__form" method="post" action="https://echo.htmlacademy.ru">
+      <p class="modal__form-wrapper">
+        <label for="modal__form-name">Ваше имя:</label>
+        <input type="text" id="modal__form-name" name="login" placeholder="Имя Фамилия">
+      </p>
+      <p class="modal__form-wrapper">
+        <label for="modal__form-email">Ваш e-mail:</label>
+        <input type="email" id="modal__form-email" name="email" placeholder="email@example.com">
+      </p>
+      <p class="modal__form-wrapper">
+        <label for="modal__form-text">Текст письма:</label>
+        <textarea id="modal__form-text" name="text" rows="4" placeholder="В свободной форме">
+        </textarea>
+      </p>
+      <button class="modal__button button" type="submit">Отправить!>></button>
+    </form>
+    <button class="modal__close" type="button">
+      <svg class="modal__close-image" width="21px" height="21px">
+        <use xlink:href="#close-cross"></use>
+      </svg>Закрыть</button>
+  </section>
+
+  <script src="js/javascript.js"></script>
+  <script src="js/picturefill.js"></script>
+
 </body>
 
 </html>
